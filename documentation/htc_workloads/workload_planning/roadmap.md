@@ -45,7 +45,6 @@ After your OSG account has been approved, go through the following guides to
 complete your access to the login node and to enable your account to submit jobs. 
 
 - [Generate ssh keys and login](../../../overview/account_setup/generate-add-sshkey/)
-- [Set your default project](../../../overview/account_setup/starting-project/)
 
 # 3. Learn to Submit HTCondor Jobs
 
@@ -76,7 +75,6 @@ Read through [this overview of Using Software in OSG Connect](../../../htc_workl
 - To **install your own software**, begin with the guide on [Compiling Software for OSG Connect](../../../htc_workloads/using_software/compiling-applications/) and then complete the [Example Software Compilation tutorial](../../../htc_workloads/using_software/example-compilation/).
 - To **use precompiled binaries**, try the example presented in the [AutoDock Vina tutorial](../../../software_examples/drug_discovery/tutorial-AutoDockVina/) and/or the [Julia tutorial](../../../software_examples/other_languages_tools/julia-on-osg/).
 - To **use Docker containers** for your jobs, start with the [Docker and Singularity Containers guide](../../../htc_workloads/using_software/available-containers-list/), and (optionally) work through the [Tensorflow tutorial](../../../software_examples/machine_learning/tutorial-tensorflow-containers/) (which uses Docker/Singularity)
-- To **use Distributed Environment Modules** for your jobs, start with [this Modules guide](../../../htc_workloads/using_software/software-request/) and then complete the Module example in [this R tutorial](../../../software_examples/r/tutorial-R-addlibSNA/)
 
 Finally, here are some additional guides specific to some of the most common scripting languages and software tools used on OSG\*\*:
 
@@ -103,7 +101,7 @@ discussed the relevant approaches, when to use them, and where to stage data for
 
 ## Assign the Appropriate Job Duration Category
 
-Jobs running in the OSPool may be interrupted at any time, and will be re-run by HTCondor, unless a single execution of a job exceeds the allowed duration. Jobs expected to take longer than 10 hours will need to identify themselves as 'Long' according to our [Job Duration policies](../../../htc_workloads/workload_planning/roadmap/). Remember that jobs expected to take longer than 20 hours are not a good fit for the OSPool (see [Is the Open Science Pool for You?](../../../overview/account_setup/is-it-for-you/)) without implementing self-checkpointing (further below).
+Jobs running in the OSPool may be interrupted at any time, and will be re-run by HTCondor, unless a single execution of a job exceeds the allowed duration. Jobs expected to take longer than 10 hours will need to identify themselves as 'Long' according to our [Job Duration policies](../../../htc_workloads/workload_planning/jobdurationcategory/). Remember that jobs expected to take longer than 20 hours are not a good fit for the OSPool (see [Is the Open Science Pool for You?](../../../overview/account_setup/is-it-for-you/)) without implementing self-checkpointing (further below).
 
 # 5. Scale Up
 
