@@ -4,7 +4,7 @@ nav:
     - Welcome And Account Setup:
       - "Computation on the Open Science Pool ": overview/account_setup/is-it-for-you.md
       - "Registration and Login for OSG Connect ": overview/account_setup/registration-and-login.md
-      - "Generate SSH Keys and Activate Your OSG Login ": overview/account_setup/generate-add-sshkey.md
+      - "Generate SSH Keys and Activate Your OSG Connect Login ": overview/account_setup/generate-add-sshkey.md
       - "Join and Use a Project in OSG Connect ": overview/account_setup/starting-project.md
       - "Requesting an OSPool ap7.ospool.osg-htc.org Account": overview/account_setup/ap7-access.md
   - Support And Training Resources:
@@ -30,7 +30,7 @@ nav:
     - Using Software On The OSG:
       - "Using Software on the Open Science Pool": htc_workloads/using_software/software-overview.md
       - "Control Where Your Jobs Run/Job Requirements": htc_workloads/using_software/requirements.md
-      - "Compiling Software for OSG Connect": htc_workloads/using_software/compiling-applications.md
+      - "Compiling Software": htc_workloads/using_software/compiling-applications.md
       - "Example Software Compilation": htc_workloads/using_software/example-compilation.md
       - "Containers - Overview": htc_workloads/using_software/containers.md
       - "Containers - Apptainer/Singularity": htc_workloads/using_software/containers-singularity.md
